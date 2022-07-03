@@ -1,5 +1,26 @@
-.cardHome{
-    margin-left: 10%  !important;
-    padding-left: 10%  !important;
-    width: 10%  !important;
+.cardHome {
+  margin-left: 10% !important;
+  padding-left: 10% !important;
+  width: 10% !important;
+
 }
+
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  20%{
+    transform:scale(1.2);
+  }
+  50%{
+    transform:scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform:scale(1);
+  }
+}
+
+.card-body{
+    animation:opacity 1s ;}
