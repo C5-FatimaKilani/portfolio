@@ -1,12 +1,18 @@
 .App {
  /* background-image: url("https://images.pexels.com/photos/6843588/pexels-photo-6843588.jpeg"); */
- background-image: url("https://i.makeagif.com/media/8-23-2018/h3pGxo.gif");
+ background-image: url("https://i.pinimg.com/564x/55/2b/77/552b7746ce20185b99bac712cb39d945.jpg");
  background-size: cover;
-   height: 100vh;
+  /* height: 150vh; */
  padding:0;
  margin:0;
  background-repeat: no-repeat;
 }
+/* body{
+ background-image: url("https://i.makeagif.com/media/8-23-2018/h3pGxo.gif");
+ background-size: cover;
+ background-repeat: no-repeat;
+
+} */
 /* 
 https://pin.it/6Uglhhk
 */

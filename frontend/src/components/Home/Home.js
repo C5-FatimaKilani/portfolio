@@ -10,14 +10,14 @@ const Home = () => {
     
       <Container >
       <Row>
-        <Col><Card  className="card1" style={{ width: "90%",marginTop:"10%", marginLeft:"10%",  boxShadow:" 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)", animation:"opacity 5s " }}>
+        <Col><Card  className="card1" style={{ width: "70%",marginTop:"10%", marginLeft:"15%",  boxShadow:" 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)", animation:"opacity 5s " }}>
         <Card.Body>
           <Card.Subtitle className="mb-2 text-muted">
-            🚀 HI THERE ,
+             Hi There ,
           </Card.Subtitle>
-          <Card.Title style={{fontSize:'200%'}}>🎓  I'm Fatima Kilani</Card.Title>
+          <Card.Title style={{fontSize:'150%'}}>🎓  I'm Fatima Kilani</Card.Title>
 
-          <Card.Subtitle className="mb-2 text-muted">
+          <Card.Subtitle style={{fontSize:'250%', color:"yellow"}} className="mb-2 text-muted">
             Full Stack Web Developer
           </Card.Subtitle>
           <Card.Text>

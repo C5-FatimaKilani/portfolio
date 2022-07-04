@@ -7,14 +7,17 @@ import { ImTrello} from 'react-icons/im';
 import { IoLogoJavascript,IoLogoNodejs} from 'react-icons/io';
  import {GrReactjs ,GrHtml5} from 'react-icons/gr';
 import { SiMysql,SiRedux,SiMongodb,SiCss3} from 'react-icons/si';
-
+import "./Projects.css"
 
 import hamada from "./hamada.png"
 import sooq from "./sooq.png"
 const Projects = () => {
     return(
-        
+      <div>
+        <h1 style={{marginTop:"10%"}}>My Projects</h1>
         <div style={{display: "flex", justifyContent:'space-evenly', marginTop:"10%"}}>
+
+
           
     {/* <Card style={{ width: '25rem',  boxShadow:" 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)"}}>
       <Card.Img variant="top" style={{height:"30%" , width:"70%", marginBottom:"15%", textAlign:"center", marginTop:"20%", marginLeft:"15%"}} src={hamada} />
@@ -59,7 +62,7 @@ const Projects = () => {
     <div className="Card3">
     <Image src={hamada}/>
     <div className="overlay">
-      <div className="line"><h2 className="title" style={{fontSize:"smaller"}}>Abed-Hamada restaurant <br/> Full Stack App</h2></div>
+      <div className="line"><h2 className="title" >Abed-Hamada restaurant <br/> Full Stack App</h2></div>
       <div className="content">
         <p>Bringing unlocked me an striking ye perceive. Mr by wound hours oh happy. Me in resolution pianoforte continuing we. Most my no spot felt by no. He he in forfeited furniture sweetness he arranging. Me tedious so to behaved written account ferrars moments. </p>
       </div>
@@ -77,7 +80,7 @@ const Projects = () => {
     <div className="Card3">
     <Image src={sooq}/>
     <div className="overlay">
-      <div className="line"><h2 className="title" style={{fontSize:"smaller"}}>SooqCom <br/>Full Stack App</h2></div>
+      <div className="line"><h2 className="title" >SooqCom <br/>Full Stack App</h2></div>
       <div className="content">
         <p> It's app like open sooq  allowed to users sell and buy any thing they want .. also they can create  comments  on other products and making crud on  comments and their products. </p>
       </div>
@@ -92,6 +95,7 @@ const Projects = () => {
    
   </div> 
  
+            </div>
             </div>
  )   
 }
