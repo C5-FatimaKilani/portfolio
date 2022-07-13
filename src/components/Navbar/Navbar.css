@@ -4,5 +4,8 @@
 } */
 
 .myNav{
-    background-color: rgba(231, 28, 28, 0.418);
+    background-color: rgba(0, 0, 0, 0.568);
+}
+.navLink :hover{
+color: blueviolet;
 }

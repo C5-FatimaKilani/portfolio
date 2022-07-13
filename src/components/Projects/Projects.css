@@ -1,13 +1,15 @@
 
-*{margin:0px;padding:0px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;font-family: 'Roboto';}
+*{margin:0px;
+  padding:0px;
+  /* -webkit-box-sizing: border-box;-moz-box-sizing: border-box;
+  box-sizing: border-box; */
+  font-family: 'Roboto';}
 
 body{text-align:center;
   /* background-image: url("https://i.makeagif.com/media/8-23-2018/h3pGxo.gif"); */
-  background-size: cover;
+  /* background-size: cover; */
   background-repeat: no-repeat;
- 
-  padding:2em 0px;
-}
+ }
 .Card3{
     position: relative;
     display:inline-block;

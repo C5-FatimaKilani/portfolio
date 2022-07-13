@@ -13,12 +13,13 @@ function App() {
       <header className="App-header">
         
         <Navbarr/>
+       
         {/* <Home/>
         <Projects/>
         <Skills/>
         <Resume/> */}
        <Routes>
-         <Route path="/home" element={<Home/>}/>
+         <Route path="/" element={<Home/>}/>
         <Route path="/projects" element={<Projects/>}/>
         <Route path="/skills" element={<Skills/>}/>
         <Route path="/resume" element={<Resume/>}/> 

@@ -9,11 +9,11 @@ const Navbarr = () => {
   // const navigate = useNavigate();
   return (
     <>
-      <Navbar className="myNav" bg="black" variant="dark" style={{color:"white", opacity:""}}>
+      <Navbar className="myNav"  variant="dark" style={{color:"white", opacity:""}}>
         <Container>
-          <Navbar.Brand href="#home"><Image style={{height:"120px", width:"120px" }}  className="imgg" src="https://icon-library.com/images/programmer-icon/programmer-icon-14.jpg"  /></Navbar.Brand>
+          <Navbar.Brand href="/"><Image  className="imgg" style={{height:"120px", width:"120px" }}  src="https://icon-library.com/images/programmer-icon/programmer-icon-14.jpg"  /></Navbar.Brand>
           <Nav  className="me-left">
-            <Nav.Link style={{color:"white", fontSize:"150%"}} href="/home" >Home</Nav.Link>
+            <Nav.Link className="navLink" style={{color:"white", fontSize:"150%"}} href="/" >Home</Nav.Link>
            
             <Nav.Link style={{color:"white", fontSize:"150%"}} href="/skills">Skills</Nav.Link>
             <Nav.Link style={{color:"white", fontSize:"150%"}} href="/resume">Resume</Nav.Link>
