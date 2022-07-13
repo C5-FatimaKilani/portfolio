@@ -1,8 +1,8 @@
 
 *{margin:0px;
   padding:0px;
-  /* -webkit-box-sizing: border-box;-moz-box-sizing: border-box;
-  box-sizing: border-box; */
+  /* -webkit-box-sizing: border-box;-moz-box-sizing: border-box;*/
+  box-sizing: border-box; 
   font-family: 'Roboto';}
 
 body{text-align:center;
@@ -20,6 +20,7 @@ body{text-align:center;
     background: #000;
     box-shadow: rgba(6, 33, 63, 0.129412) 0px 1px 2px 0px;
     -moz-transition: 0.5s;-o-transition: 0.5s;-webkit-transition: 0.5s;transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(219, 16, 16, 0.2), 0 6px 20px 0 rgba(231, 14, 14, 0.19);
   }
   
   .Card3 img{
@@ -30,6 +31,7 @@ body{text-align:center;
     width: 50%;
     -webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);transform: translate(-50%,-50%);
     -moz-transition: 0.5s;-o-transition: 0.5s;-webkit-transition: 0.5s;transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(219, 16, 16, 0.2), 0 6px 20px 0 rgba(231, 14, 14, 0.19);
   }
   .Card3:hover img{top:30%;opacity: 0.5;}
   

@@ -3,9 +3,14 @@
     margin-left: 32%;
 } */
 
-.myNav{
-    background-color: rgba(0, 0, 0, 0.568);
+.myNav {
+  background-color: rgba(0, 0, 0, 0.459);
 }
-.navLink :hover{
-color: blueviolet;
+
+.navLink {
+  color: white;
+  font-size: 150%;
+}
+.navLink :hover {
+  color: rgb(201, 41, 29);
 }

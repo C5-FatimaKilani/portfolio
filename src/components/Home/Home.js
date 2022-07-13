@@ -10,7 +10,7 @@ const Home = () => {
     
       <Container >
       <Row>
-        <Col><Card  className="card1" style={{ width: "70%",marginTop:"10%", marginLeft:"15%",  boxShadow:" 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)", animation:"opacity 5s " }}>
+        <Col><Card  className="card1" style={{ width: "70%",marginTop:"10%", marginLeft:"15%",  boxShadow:" 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(231, 14, 14, 0.19)", animation:"opacity 5s " }}>
         <Card.Body>
           <Card.Subtitle className="mb-2 text-muted">
              Hi There ,
