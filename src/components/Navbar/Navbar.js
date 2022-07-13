@@ -1,7 +1,10 @@
 // import { useNavigate } from "react-router-dom";
 // import { useEffect } from "react";
 import {Container,Nav,Navbar , Image} from "react-bootstrap";
+import {LinkContainer} from 'react-router-bootstrap'
+
 import logo from "../programmer-icon-14.jpg"
+
 
 const Navbarr = () => {
   // const navigate = useNavigate();
@@ -13,10 +16,13 @@ const Navbarr = () => {
           <Nav  className="me-left">
             <Nav.Link style={{color:"white", fontSize:"150%"}} href="/home" >Home</Nav.Link>
             {/* onClick={()=>navigate("/home")} */}
-            <Nav.Link style={{color:"white", fontSize:"150%"}} href="/projects">Projects</Nav.Link>
+            {/* <Nav.Link style={{color:"white", fontSize:"150%"}} href="/projects">Projects</Nav.Link> */}
             <Nav.Link style={{color:"white", fontSize:"150%"}} href="/skills">Skills</Nav.Link>
             <Nav.Link style={{color:"white", fontSize:"150%"}} href="/resume">Resume</Nav.Link>
-            
+            <LinkContainer to="/projects">
+            <Nav.Link style={{color:"white", fontSize:"150%"}} >Projects</Nav.Link>
+</LinkContainer>
+
           </Nav>
         </Container>
       </Navbar>

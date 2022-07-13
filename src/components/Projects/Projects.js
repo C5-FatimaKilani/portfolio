@@ -62,7 +62,7 @@ const Projects = () => {
     <div className="Card3">
     <Image src={hamada}/>
     <div className="overlay">
-      <div className="line"><h2 className="title" >Abed-Hamada restaurant <br/> Full Stack App</h2></div>
+      <div className="line"><h2 className="title" style={{fontSize:"100%"}}>Abed-Hamada restaurant <br/> Full Stack App</h2></div>
       <div className="content">
         <p>Bringing unlocked me an striking ye perceive. Mr by wound hours oh happy. Me in resolution pianoforte continuing we. Most my no spot felt by no. He he in forfeited furniture sweetness he arranging. Me tedious so to behaved written account ferrars moments. </p>
       </div>
@@ -80,7 +80,7 @@ const Projects = () => {
     <div className="Card3">
     <Image src={sooq}/>
     <div className="overlay">
-      <div className="line"><h2 className="title" >SooqCom <br/>Full Stack App</h2></div>
+      <div className="line"><h2 className="title" style={{fontSize:"100%"}}>SooqCom <br/>Full Stack App</h2></div>
       <div className="content">
         <p> It's app like open sooq  allowed to users sell and buy any thing they want .. also they can create  comments  on other products and making crud on  comments and their products. </p>
       </div>

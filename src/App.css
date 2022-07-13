@@ -3,6 +3,7 @@
  background-image: url("https://i.pinimg.com/564x/55/2b/77/552b7746ce20185b99bac712cb39d945.jpg");
  background-size: cover;
   /* height: 150vh; */
+  width: fit-content;
  padding:0;
  margin:0;
  background-repeat: no-repeat;
