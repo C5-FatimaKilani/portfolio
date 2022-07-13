@@ -1,4 +1,8 @@
-.imgNav .imgg{
+/* .imgNav .imgg{
     width: 40%;
     margin-left: 32%;
+} */
+
+.myNav{
+    background-color: rgba(231, 28, 28, 0.418);
 }

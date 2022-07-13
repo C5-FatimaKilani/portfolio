@@ -46,7 +46,9 @@ body{text-align:center;
    .Card4 .overlay .line{width: 100%;text-align: left;line-height: 50px;padding:0em 1em;}
    .Card4 .overlay .content{text-align: left;padding: 1em;}
    
-   
+   .h1Comp{
+    color: white;
+   }
    
    
    

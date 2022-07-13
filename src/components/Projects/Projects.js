@@ -14,8 +14,8 @@ import sooq from "./sooq.png"
 const Projects = () => {
     return(
       <div>
-        <h1 style={{marginTop:"10%"}}>My Projects</h1>
-        <div style={{display: "flex", justifyContent:'space-evenly', marginTop:"10%"}}>
+        <h1 className="h1Comp" style={{marginTop:"2%"}}>My Projects</h1>
+        <div style={{display: "flex", justifyContent:'space-evenly', marginTop:"2%"}}>
 
 
           

@@ -14,7 +14,7 @@ const Resume = () => {
     
 
     return(
-        <Card style={{ margin: "15%"}}>
+        <Card style={{ marginTop: "7%", marginLeft:"15%", marginRight:"15%", marginBottom:"10%"}}>
         <Card.Body>
          
         </Card.Body>

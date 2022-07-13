@@ -12,7 +12,7 @@ import mysql from "./mysql.jpg"
 const Skills = () => {
 return(
   <div className="cont">
-<h1>My Skills</h1>
+<h1 className="h1Comp">My Skills</h1>
 
     <div className="Card4">
     <img src="https://i.pinimg.com/originals/26/44/b4/2644b4fa1f0c1f40c387b1cbcf251e4e.gif"/>

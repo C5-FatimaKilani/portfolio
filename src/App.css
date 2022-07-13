@@ -1,19 +1,16 @@
 .App {
- /* background-image: url("https://images.pexels.com/photos/6843588/pexels-photo-6843588.jpeg"); */
- background-image: url("https://i.pinimg.com/564x/55/2b/77/552b7746ce20185b99bac712cb39d945.jpg");
- background-size: cover;
-  /* height: 150vh; */
-  width: fit-content;
- padding:0;
- margin:0;
- background-repeat: no-repeat;
+  /* background-image: url("https://pin.it/6Uglhhk"); */
+  background-color: rgb(26, 15, 39);
+  background-size: cover;
+  /* padding: 0;
+  margin: 0; */
+  background-repeat: no-repeat;
 }
-/* body{
- background-image: url("https://i.makeagif.com/media/8-23-2018/h3pGxo.gif");
+ /* body{
  background-size: cover;
  background-repeat: no-repeat;
 
-} */
+}  */
 /* 
 https://pin.it/6Uglhhk
 */

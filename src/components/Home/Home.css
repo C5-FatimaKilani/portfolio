@@ -1,9 +1,7 @@
-.cardHome {
-  margin-left: 10% !important;
-  padding-left: 10% !important;
-  width: 10% !important;
+ .card1 {
+ margin-bottom: 14%;
 
-}
+} 
 
 
 @keyframes opacity {
